@@ -1,0 +1,26 @@
+.CityInfo {
+    display: flex;
+}
+
+.CityInfo_image {
+    width: 560px;
+    height: 560px;
+    margin-right: 20px;
+}
+
+.CityInfo_name {
+    color: #003594;
+    font-size: 24px;
+    line-height: 1.35;
+}
+
+.CityInfo_prices {
+    display: flex;
+    flex-direction: column;
+}
+
+.CityInfo_price {
+    color: #003594;
+    font-size: 18px;
+    line-height: 1.55;
+}

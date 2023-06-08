@@ -1,0 +1,21 @@
+.CitiesList_grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    column-gap: 10px;
+    row-gap: 50px;
+    justify-content: space-around;
+}
+
+.CitiesList_CityLink {
+    text-decoration: none;
+}
+
+.CitiesList_CityName {
+    color: #003594;
+    font-size: 20px;
+    line-height: 1.35;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-style: normal;
+}
